@@ -744,7 +744,7 @@
        */
       maybeDeleteValue() {
         if (!this.$refs.search.value.length && this.mutableValue) {
-          return this.multiple ? this.mutableValue.pop() : this.mutableValue = null
+          return this.multiple ? this.mutableValue.pop() : this.mutableValue = ''
         }
       },
 
